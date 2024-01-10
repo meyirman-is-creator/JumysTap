@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JumysTap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <div class="header__logo">
-                <img src="images/Logo.png" alt="">
-            </div>
-            <div class="header__menu">
+            <div class="header__inner">
+                <a href="#" class="header__logo">
+                    <img src="images/Logo.png" alt="">
+                </a>
                 <ul class="menu">
                     <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">About us</a></li>
@@ -20,14 +24,15 @@
                     <li class="menu__item"><a href="#" class="menu__link get__started">Get Started</a></li>
                 </ul>
             </div>
+            
         </div>
     </header>
     <section class="howitworks">
         <div class="container">
             <div class="howitworks__inner">
                 <div class="howitworks__content">
-                    <h6 class="howitworks__title">Get hired for your skills, not experience</h6>
-                    <p class="howitworks__text">The best tool to start your career journey with. Get connected with the best companies — just share your CV to get started.</p>
+                    <div class="howitworks__title">Get hired for your skills, not experience</div>
+                    <div class="howitworks__text">The best tool to start your career journey with. Get connected with the best companies — just share your CV to get started.</div>
                     <a href="#" class="howitworks__btn">How It Works?</a>
                 </div>
                 <div class="howitworks__img">
@@ -39,34 +44,35 @@
     <section class="advantages">
         <div class="container">
             <div class="advantages__title">
-                <p class="advantages__text">Lorem Ipsum Description Text</p>
-                <h6 class="advantages__subtitle">How It Works?</h6>
+                <div class="advantages__text">Lorem Ipsum Description Text</div>
+                <div class="advantages__subtitle">How It Works?</div>
             </div>
             <div class="advantages__inner">
                 <div class="advantages__item">
                     <img src="images/Frame 17.png" alt="" class="advantages__item-img">
-                    <h3 class="advantages__item-title">Show your best skills</h3>
-                    <p class="advantages__item-text">Upload your CV</p>
+                    <div class="advantages__item-title">Show your best skills</div>
+                    <div class="advantages__item-text">Upload your CV</div>
                 </div>
                 <div class="advantages__item">
                     <img src="images/Frame 17 (1).png" alt="" class="advantages__item-img">
-                    <h3 class="advantages__item-title">Search for the best match</h3>
-                    <p class="advantages__item-text">Lorem Ipsum Description Text</p>
+                    <div class="advantages__item-title">Search for the best match</div>
+                    <div class="advantages__item-text">Lorem Ipsum Description Text</div>
                 </div>
                 <div class="advantages__item">
                     <img src="images/Frame 18.png" alt="" class="advantages__item-img">
-                    <h3 class="advantages__item-title">Find the best opportunity</h3>
-                    <p class="advantages__item-text">Lorem Ipsum Description Text</p>
+                    <div class="advantages__item-title">Find the best opportunity</div>
+                    <div class="advantages__item-text">Lorem Ipsum Description Text</div>
                 </div>
             </div>
         </div>
     </section>
     <section class="search">
         <div class="container">
-            <h6 class="search__title">Lets Get Started</h6>
-            <p class="search__subtitile">The best tool to start your career journey with. Get connected with the best companies — just share your CV to get started.</p>
+            <div class="search__title">Lets Get Started</div>
+            <div class="search__subtitile">The best tool to start your career journey with. Get connected with the best companies — just share your CV to get started.</div>
+            
             <form action="" class="search__form">
-                <input class="search__form-input" type="text" placeholder="Search for job by keywords">
+                <input class="search__form-input" type="text" placeholder="Search for job by keywords" name="" id="" required>
                 <button type="submit" class="search__form-btn">Find Job</button>
             </form>
         </div>
@@ -78,29 +84,40 @@
                     <img src="images/VisualContent (1).png" alt="">
                 </div>
                 <div class="upload__content">
-                    <h6 class="upload__title">Upload your CV</h6>
-                    <p class="upload__subtitle">The best tool to start your career journey with. Get connected with the best companies — just share your CV to get started.</p>
+                    <div class="upload__title">Upload your CV</div>
+                    <div class="upload__subtitle">The best tool to start your career journey with. Get connected with the best companies — just share your CV to get started.</div>
                     <button type="button" class="upload__btn">Upload</button>
                 </div>
             </div>
         </div>
     </section>
     <footer class="footer">
-        <div class="footer__inner">
-            <div class="footer__menu">
-                <ul class="menu">
-                    <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">About us</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">How it works</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link-social"><img src="images/Twitter.png" alt=""></a></li>
-                    <li class="menu__item"><a href="#" class="menu__link-social"><img src="images/Instagram.png" alt=""></a></li>
-                </ul>
-            </div>
-            <div class="footer__content">
-                <div class="footer__title">Credits: photos from <a href="https://unsplash.com/@surface">Unsplash.com</a>, icons from <a href="https://icons8.com/">Icons8</a>, graphics from <a href="https://craftwork.design/checkout/purchase-confirmation/?payment_key=a3ba0d28aa30dfd691cd535acb1f4228">craftwork.design</a>, font Kanit from <a href="https://fonts.google.com/specimen/Kanit">fonts.google</a>.</div>
-                <div class="footer__text">Made with ✨❤️ at nFactorial in 2022.</div>
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__menu">
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">About us</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">How it works</a></li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link-social">
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">    <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"/></svg>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link-social">
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">    <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"/></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <div class="footer__title">Credits: photos from <a href="https://unsplash.com/@surface">Unsplash.com</a>, icons from <a href="https://icons8.com/">Icons8</a>, graphics from <a href="https://craftwork.design/checkout/purchase-confirmation/?payment_key=a3ba0d28aa30dfd691cd535acb1f4228">craftwork.design</a>, font Kanit from <a href="https://fonts.google.com/specimen/Kanit">fonts.google</a>.</div>
+                    <div class="footer__text">Made with ✨❤️ at nFactorial in 2022.</div>
+                </div>
             </div>
         </div>
+        
     </footer>
 </body>
 </html>
