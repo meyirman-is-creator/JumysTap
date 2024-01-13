@@ -95,9 +95,10 @@ button{
     font-family: "Inter", sans-serif;
     font-weight: 500;
     transition: all .3s;
+    cursor: pointer;
 }
 .howitworks__btn:hover{
-    background: #5d27d3;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
 }
 .advantages{
     padding: 100px 0;
@@ -200,9 +201,10 @@ button{
     color: #fff;
     font-weight: 500;
     line-height: 18px;
+    cursor: pointer;
 }
 .search__form-btn:hover{
-    background: #5d27d3;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
 }
 .upload__inner{
     padding: 64px 0;
@@ -236,9 +238,10 @@ button{
     line-height: 18px;
     color: #fff;
     position: relative;
+    cursor: pointer;
 }
 .upload__btn:hover{
-    background: #5d27d3;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
 }
 .upload__btn::after{
     content: "";
