@@ -1,3 +1,9 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -55,10 +61,15 @@ button{
     border-radius: 100px;
     transition: all .3s;
     background-color: rgba(8, 30, 52, 0.12);
+    margin-left: 16px;
 }
 .get__started:hover {
     background-color: rgba(8, 30, 52, 0.315);
     text-decoration: none;
+}
+.left{
+    display: flex;
+    
 }
 .howitworks{
     padding: 100px 0;
