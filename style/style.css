@@ -88,6 +88,7 @@ button{
 }
 .howitworks__content{
     width: 495px;
+    padding: 0 70px 0 0;
 }
 .howitworks__text{
     font-size: 16px;
@@ -140,8 +141,8 @@ button{
     display: flex;
     justify-content: space-between;
 }
-.dvantages__item{
-    min-width: 400px;
+.advantages__item{
+    padding: 0 20px;
 }
 .advantages__item-img{
     margin-bottom: 48px;

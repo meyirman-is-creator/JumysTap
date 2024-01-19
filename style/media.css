@@ -1,32 +1,148 @@
-@media (max-width: 1000px){
-    .howitworks__inner {
-        display: grid;
-        grid-template-areas:
-          "image"
-          "text";
-        grid-template-rows: auto 1fr;
-        max-width: 100%;
-      }
-      .howitworks__img {
-        height: auto;
-        margin-bottom: 54px;
-        height: auto;
-      }
-      .howitworks__img img {
-        height: auto;
-        max-width: 100%;
-      }
-      .howitworks__content {
-        grid-area: text;
-        text-align: center;
-        width: 100%;
-      }
+@media (max-width: 1250px) {
+  .footer__content {
+    max-width: 50%;
+    text-align: right;
+  }
 }
 
+@media (max-width: 1100px) {
+  .howitworks__inner {
+    display: grid;
+    grid-template-areas:
+      "image"
+      "text";
+    grid-template-rows: auto 1fr;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .howitworks__img {
+    height: auto;
+    margin-bottom: 54px;
+    height: auto;
+    text-align: center;
+  }
+  .howitworks__img img {
+    height: auto;
+    max-width: 100%;
+  }
+  .howitworks__content {
+    padding: 0;
+    grid-area: text;
+    text-align: center;
+    width: 100%;
+  }
+  .upload__inner {
+    display: block;
+    text-align: center;
+  }
+  .search {
+    text-align: center;
+  }
+  .search__subtitile {
+    max-width: 100%;
+    width: 100%;
+  }
+  .search__form {
+    display: inline-block;
+  }
+  .upload__content {
+    margin: 0;
+  }
+  .upload__img {
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 850px) {
+  .footer__inner {
+    display: block;
+  }
+
+  .footer__menu {
+    margin-bottom: 40px;
+  }
+  .footer__title {
+    margin-bottom: 40px;
+  }
+  .footer__text {
+    text-align: left;
+  }
+  .footer__content {
+    max-width: 100%;
+    text-align: left;
+  }
+  
+}
+@media (max-width: 810px) {
+  .search__form-input {
+    max-width: 100%;
+    width: 100%;
+  }
+  .search__title {
+    text-align: center;
+  }
+  .search__subtitile {
+    text-align: center;
+    max-width: 100%;
+  }
+  .search__form {
+    text-align: center;
+  }
+  .search__form-btn {
+    margin: 32px 0 0;
+  }
+  .search__form {
+    display: block;
+  }
+}
+@media (max-width: 700px) {
+  .advantages__inner {
+    display: block;
+    text-align: center;
+  }
+  .advantages__item + .advantages__item {
+    margin-top: 50px;
+  }
+  .upload__img img {
+    max-width: 100%;
+    width: 100%;
+  }
+}
 @media (max-width: 600px) {
-    .menu {
-        display: none;
-      }
+  .menu {
+    display: none;
+  }
+  .howitworks__title {
+    font-size: 42px;
+    line-height: 120%;
+  }
+  .howitworks__text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .advantages__subtitle {
+    font-size: 42px;
+  }
+  .search__title {
+    font-size: 42px;
+  }
+  .upload__title {
+    font-size: 42px;
+  }
+  .footer .menu {
+    display: flex;
+  }
+}
+@media (max-width: 450px) {
+  .footer .menu {
+    display: block;
+  }
+  .menu__item + .menu__item {
+    margin: 10px 0 0;
+  }
+  .menu__link-social {
+    display: block;
+    padding: 0px 12px;
+  }
 }
 @media (max-width: 360px) {
   .howitworks {
@@ -74,6 +190,10 @@
   }
   .advantages__inner {
     display: block;
+    text-align: left;
+  }
+  .advantages__item {
+    padding: 0;
   }
   .advantages__item-img {
     margin-bottom: 24px;
@@ -97,20 +217,12 @@
   .search__title {
     font-size: 24px;
     line-height: 120%;
-    text-align: center;
   }
   .search__subtitile {
     font-size: 14px;
     line-height: 18px;
-    text-align: center;
-  }
-  .search__form {
-    text-align: center;
   }
   .search__form-input {
-    max-width: 100%;
-    width: 100%;
-    box-sizing: border-box;
     margin-bottom: 32px;
   }
   .search__form-btn {
@@ -119,15 +231,7 @@
   .upload__inner {
     display: block;
   }
-  .upload__img img {
-    max-width: 100%;
-  }
-  .upload__content {
-    margin: 0;
-  }
-  .upload__img {
-    margin-bottom: 120px;
-  }
+
   .upload__title {
     font-size: 24px;
     line-height: 120%;
@@ -135,27 +239,5 @@
   .upload__subtitle {
     font-size: 14px;
     line-height: 18px;
-  }
-  .footer .menu{
-    display: block;
-  }
-  .footer__inner{
-    display: block;
-  }
-  .menu__item + .menu__item{
-    margin: 10px 0 0;
-  }
-  .menu__link-social{
-    display: block;
-    padding: 0px 12px;
-  }
-  .footer__menu{
-    margin-bottom: 40px;
-  }
-  .footer__title{
-    margin-bottom: 40px;
-  }
-  .footer__text {
-    text-align: left;
   }
 }
